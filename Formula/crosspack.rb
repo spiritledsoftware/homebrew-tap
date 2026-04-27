@@ -1,8 +1,8 @@
 class Crosspack < Formula
   desc "Native cross-platform package manager"
   homepage "https://github.com/spiritledsoftware/crosspack"
-  url "https://github.com/spiritledsoftware/crosspack/archive/refs/tags/v0.10.5.tar.gz"
-  sha256 "bbf9fc31416b35c3654376ac64877db7ffcdd62d68fabde589f307308bd49d90"
+  url "https://github.com/spiritledsoftware/crosspack/archive/refs/tags/v0.12.0.tar.gz"
+  sha256 "9e05a97d8508129c31e45d84db6e79f196be09db760834293a0feac522f967a4"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on "rust" => :build
