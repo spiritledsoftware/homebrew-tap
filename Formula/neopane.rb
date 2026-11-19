@@ -5,21 +5,21 @@ class Neopane < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/spiritledsoftware/neopane/releases/download/v0.1.0/neopane-aarch64-apple-darwin.tar.gz"
-      sha256 "a619d871650800ce649fe593cd7fac767657d8767f877ad9830a27690e29d93d"
+      url "https://github.com/spiritledsoftware/neopane/releases/download/v0.2.0/neopane-aarch64-apple-darwin.tar.gz"
+      sha256 "12860a469c9e4ce55e2586dc3b9fb5399a2781575c6a5aeb9ab091de180d1f1d"
     else
-      url "https://github.com/spiritledsoftware/neopane/releases/download/v0.1.0/neopane-x86_64-apple-darwin.tar.gz"
-      sha256 "b9ffe3765685ed05edfae17cc74504772165aa2461476ea446538538924f8e03"
+      url "https://github.com/spiritledsoftware/neopane/releases/download/v0.2.0/neopane-x86_64-apple-darwin.tar.gz"
+      sha256 "4b50ed674cc046273abc80719801eabf323b7959116e4d7e4e669eca913f274a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/spiritledsoftware/neopane/releases/download/v0.1.0/neopane-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "0e560d300fc572c6ef99bfa22f269b544ee4ddea7b1e6b3ca989d41b48cc738a"
+      url "https://github.com/spiritledsoftware/neopane/releases/download/v0.2.0/neopane-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "85f29c2382738d3f84cad3fa449480dc0ca7b8efb178c3291955df1621976dce"
     else
-      url "https://github.com/spiritledsoftware/neopane/releases/download/v0.1.0/neopane-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "0458bf5466f87f894c8fd78c6b5b8361e9d5becb75d5cc7d0a1bfce496abe1c4"
+      url "https://github.com/spiritledsoftware/neopane/releases/download/v0.2.0/neopane-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "e907e5909e4cbcaa5af88467fe7fa9873ddb18bff1c6fca40f15f07af35e30ad"
     end
   end
 
